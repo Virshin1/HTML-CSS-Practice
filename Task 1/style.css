@@ -13,7 +13,7 @@ input{
     width: 12rem;
     border: none;
     border-radius: 3px;
-    transition: opacity 0.3s;
+    transition: opacity 0.3s,border 0.3s;
     font-size: 17px;
 }
 
