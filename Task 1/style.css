@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(44, 40, 58);
+    color: rgb(176, 208, 237);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+input{
+    gap: 1rem;
+    height: 1.6rem;
+    width: 12rem;
+    border: none;
+    border-radius: 3px;
+    transition: opacity 0.3s;
+    font-size: 17px;
+}
+
+input:hover{
+    opacity: 0.7;
+}
+
+input:focus{
+    border: 3px orange solid;
+}
+
+h2{
+    margin-bottom: 5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text{
+    margin: 25px;
+    margin-left: 4rem;
+}
+
+.email{
+    margin: 25px;
+    margin-left: 7.4rem;
+}
+
+.pass{
+    margin: 25px;
+    margin-left: 4.1rem;
+}
+
+.option{
+    margin: 25px;
+    margin-left: 8.2rem;
+    margin-right: 4rem;
+    border: none;
+    border-radius: 3px;
+    height: 1.7rem;
+    width: 5rem;
+    width: min-content;
+    text-align: center;
+    font-family: monospace;
+    transition: opacity 0.2s;
+}
+
+.option:hover{
+    opacity: 0.6;
+}
+
+.agree{
+    font-size: 25px;
+}
+
+.check{
+    margin-right: 20px;
+    border: none;
+}
+
+.create{
+    margin: 2rem;
+    border: 1px rgb(176, 208, 237) solid;
+    border-width: 2px;
+    border-radius: 3px;
+    height: 2.6rem;
+    width: 10rem;
+    font-weight: bold;
+    font-size: 15px;
+    color: rgb(176, 208, 237);
+    background-color: rgb(44, 40, 58);
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.create:hover{
+    background-color: rgb(176, 208, 237);
+    color: rgb(44, 40, 58);
+    cursor: pointer;
+}
+
+.create:active{
+    opacity: 0.7;
+}
