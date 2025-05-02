@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img1{
+    width: 4rem;
+    float: right;
+}
+
+body{
+    text-align: center;
+}
+
+div{
+    background-color: aquamarine;
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+}
+
+.main{
+    background-color: white;
+    text-align: center;
+    width: 660px;
+}
+
+.service1{
+    float: left;
+}
+
+.service2{
+    float: left;
+}
+
+.service3{
+    float: right;
+}
