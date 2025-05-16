@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hackathon Judge Invitation</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@400;700&family=Roboto:wght@300;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&family=Quicksand:wght@300..700&display=swap');
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Roboto', sans-serif;
+      color: #ffffff;
+      overflow: hidden;
+    }
+
+    .vid {
+      position: fixed;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      min-height: 100%;
+      object-fit: cover;
+      z-index: -2;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom right, rgba(0,0,0,0.6), rgba(0,0,0,0.3));
+      z-index: -1;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      padding: 2rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 20px;
+      padding: 3rem;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.2);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .Text {
+      font-family: 'Playpen Sans Thai', cursive;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      font-weight: 700;
+      color: #ffffff;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+    }
+
+    .content p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin: 0.5rem 0;
+      font-family: Quicksand;
+    }
+
+    .btn {
+        margin-top: 2rem;
+        background: linear-gradient(135deg, #00b4db, #0083b0);
+        color: white;
+        border: none;
+        padding: 0.8rem 2rem;
+        font-size: 1rem;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: opacity 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0, 179, 219, 0.4);
+    }
+
+    .btn:hover {
+    opacity: 0.9;
+    }
+
+    @media (max-width: 600px) {
+      .Text {
+        font-size: 2rem;
+      }
+
+      .card {
+        padding: 2rem;
+      }
+
+      .content p {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <video autoplay muted loop class="vid">
+    <source src="vid.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="overlay"></div>
+
+  <div class="container">
+    <div class="card">
+      <h1 class="Text">You're Invited to Judge a Hackathon</h1>
+      <div class="content">
+        <p><strong>ITM</strong> is hosting a dynamic hackathon event on the vibrant campus of <strong>ITM Kharghar</strong>.</p>
+        <p>Innovators, problem-solvers, and tech enthusiasts will gather to present game-changing ideas and real-world solutions.</p>
+        <p>Your expertise is invaluable — join us as a judge and help identify the brightest minds of tomorrow.</p>
+        <button class="btn">Confirm Attendance</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
